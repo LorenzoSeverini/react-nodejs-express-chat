@@ -1,0 +1,106 @@
+/* ------------- */
+/* AuthPage */
+/* ------------- */
+@import './partials/_variables.css';
+
+.login-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 3rem;
+}
+
+.header {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+
+.help {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+
+.title-code {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--tertiary-color);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--tertiary-color);
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid var(--tertiary-color);
+}
+
+button {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: var(--quaternary-color);
+}
